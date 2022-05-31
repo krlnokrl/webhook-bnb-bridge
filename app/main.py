@@ -2,7 +2,7 @@ from flask import Flask
 from web3 import Web3
 import json
 
-from utils.contract import PREDICTION_ABI, PREDICTION_CONTRACT
+import utils
 
 #account details
 account_1 = '0x9F8cCdaFCc39F3c7D6EBf637c9151673CBc36b88'
